@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8395a7;
+}
+.search_field{
+    position: relative;
+    font-size: 5rem;
+    width: 75%;
+    margin: 5rem auto;
+}
+.search_field input, .search_field button{
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    border-radius: 3rem;
+}
+#find_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.single_food{
+    background-color: #1dd1a1;
+    border-radius: .5rem;
+    /* padding: 1rem; */
+    /* margin: .7rem; */
+    box-shadow: 0 .5rem .5rem .3rem #596d68;
+    cursor: pointer;
+}
+.single_food img{
+    
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.single_food h2{
+    color: tomato;
+    text-align: center;
+    /* background-color: rgb(243, 235, 227); */
+    padding: .8rem .4rem;
+}
+
+.single_img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.ingredients{
+    background-color: pink;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.ingredients ul{
+    padding: .5rem .8rem;
+    list-style: none;
+}
+.ingredients h2{
+    background-color: #b4707c;
+    color: #fff;
+    /* border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem; */
+} 
+.warning{
+    display: none;
+}
+
+@media (min-width: 767px){
+    .search_field{
+        width: 50%;
+        margin-top: 7rem;
+    }
+}
